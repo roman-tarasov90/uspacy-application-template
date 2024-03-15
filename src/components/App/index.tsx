@@ -19,7 +19,7 @@ const App: React.FC = () => {
 			}}
 		>
 			{' '}
-			<p>ПРИВЕТ</p>
+			<p>ПРИВЕТ!</p>
 			{t('helloWorld')} | {profile?.firstName} {profile?.lastName}
 		</Box>
 	);
