@@ -18,6 +18,7 @@ const App: React.FC = () => {
 				color: (theme) => theme.palette.primary.main,
 			}}
 		>
+			<p>ПРИВЕТ И ТЕБЕ</p>
 			{t('helloWorld')} | {profile?.firstName} {profile?.lastName}
 		</Box>
 	);
